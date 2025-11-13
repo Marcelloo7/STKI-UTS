@@ -82,7 +82,6 @@ python src/preprocess.py
 File hasil bersih akan tersimpan di data/processed.
 
 3. Boolean Retrieval
-
 Jalankan perintah:
 python src/search_engine.py --model boolean --query "pedang AND hutan"
 Contoh hasil:
@@ -93,7 +92,6 @@ Query: pedang AND hutan
 Total hasil: 1 dokumen.
 
 4. Vector Space Model (VSM)
-
 python src/search_engine.py --model vsm --query "cinta motivasi" --k 3
 Contoh hasil:
 Model: VECTOR SPACE MODEL

@@ -31,16 +31,22 @@ stki-uts-A11.2023.15390-AtanasiusMarcello/
 
 │ 
    ├── preprocess.py → Membersihkan dan memproses teks
+   
 │ 
    ├── boolean_retrieval.py → Implementasi Boolean IR dan Inverted Index
+   
 │ 
    ├── vector_space_model.py → Model VSM menggunakan TF-IDF
+   
 │ 
    ├── weighting_and_eval.py → Perbandingan TF-IDF, Sublinear TF, dan BM25
+   
 │ 
    ├── search_engine.py → Search Engine CLI (Boolean & VSM)
+   
 │ 
    └── eval.py → Evaluasi metrik IR (Precision, Recall, MAP, nDCG)
+   
 │
 
 ├── app/

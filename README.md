@@ -16,25 +16,48 @@ Struktur Direktori
 
 stki-uts-A11.2023.15390-AtanasiusMarcello/
 │
+
 ├── data/
+
 │ ├── raw/ → Dokumen asli sebelum diproses
+
+|
+
 │ └── processed/ → Dokumen hasil preprocessing (tokenized & cleaned)
+
 │
+
 ├── src/
-│ ├── preprocess.py → Membersihkan dan memproses teks
-│ ├── boolean_retrieval.py → Implementasi Boolean IR dan Inverted Index
-│ ├── vector_space_model.py → Model VSM menggunakan TF-IDF
-│ ├── weighting_and_eval.py → Perbandingan TF-IDF, Sublinear TF, dan BM25
-│ ├── search_engine.py → Search Engine CLI (Boolean & VSM)
-│ └── eval.py → Evaluasi metrik IR (Precision, Recall, MAP, nDCG)
+
+│ 
+   ├── preprocess.py → Membersihkan dan memproses teks
+│ 
+   ├── boolean_retrieval.py → Implementasi Boolean IR dan Inverted Index
+│ 
+   ├── vector_space_model.py → Model VSM menggunakan TF-IDF
+│ 
+   ├── weighting_and_eval.py → Perbandingan TF-IDF, Sublinear TF, dan BM25
+│ 
+   ├── search_engine.py → Search Engine CLI (Boolean & VSM)
+│ 
+   └── eval.py → Evaluasi metrik IR (Precision, Recall, MAP, nDCG)
 │
+
 ├── app/
-│ └── chat.py → Chat Interface (interaktif)
+
+│ 
+   └── chat.py → Chat Interface (interaktif)
 │
+
 ├── reports/
-│ ├── laporan.pdf → Laporan akhir (6–10 halaman)
-│ └── readme.md → File README ini
+
+│ 
+   ├── laporan.pdf → Laporan akhir (6–10 halaman)
+│ 
+   └── readme.md → File README ini
+   
 │
+
 └── requirements.txt → Daftar dependensi Python
 
 Cara Menjalankan Proyek

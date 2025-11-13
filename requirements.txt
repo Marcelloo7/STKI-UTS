@@ -1,5 +1,13 @@
-nltk
-scikit-learn
-matplotlib
-pandas
-numpy
+# ====== Core dependencies ======
+numpy==2.2.5
+pandas==2.2.3
+scikit-learn==1.6.1
+
+# ====== Text processing ======
+rank-bm25==0.2.2
+
+# ====== Visualization (evaluasi & grafik) ======
+matplotlib==3.10.1
+
+# ====== Utilities (opsional) ======
+argparse
